@@ -1,0 +1,1182 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+}
+
+#wrapper{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#navDiv{
+    height: 7%;
+    margin: 0px;
+	padding: 0px;
+    background-color: #1a1a1a;
+}
+
+#sredina{
+	 height: 88%;
+	 margin: 0px;
+	 padding: 0px;
+}
+#jumbotronDiv{
+    margin: 0;
+	height: 100%;
+}
+
+#footerDiv{
+    height: 5%;
+    margin: 0px;
+	padding: 0px;
+	color: white;
+    text-align: center;
+    background-color: black;
+}
+
+#logo{
+    width: 50px;
+    margin-top: 10px;
+}
+
+#logoKolona{
+    position: relative;
+    display: inline-block;
+}
+
+.logoKolonaContent{
+    display: none;
+    position: absolute;
+}
+
+#logoKolona:hover .logoKolonaContent{
+    display: block;
+    margin-top: 10px;
+}
+
+.ikonica{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 3px;
+}
+
+.ikonica>img{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#navMenuBar{
+    background-color: #1a1a1a;
+}
+
+#navKolona{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav{
+    margin-left: 150px;
+}
+
+.linkoviNav{
+    color: white;
+}
+
+.linkoviNav:hover{
+    color: #ff6600;
+}
+
+#loginKolona{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#loginKolonaHover{
+    display: none;
+    position: absolute;
+}
+
+#loginKolona:hover #loginKolonaHover{
+    display: block;
+    margin-top: 65px;
+}
+
+#loginKolonaHover{
+    background-color: white;
+    color: black;
+    width: 130px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 10px;
+}
+
+#logIn>img{
+    width: 70px;
+}
+
+#logIn>img:hover{
+    width: 70px;
+}
+
+#weAreHere{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#pocetnaSekcija{
+    text-align: center;
+    height: 100%; 
+    background-image: url("../IMG/background.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+#startProject{
+    text-decoration: none;
+    color: white; 
+}
+
+#startProjectlink{
+    margin-right: 390px;
+    border-radius: 20px;
+    background-color: #ff6600;
+    padding: 10px;
+    width: 230px;
+    font-size: 16px;
+    transition-property: transform;
+    transition-duration: 2s;
+    flex: 15%;
+}
+
+#startProjectlink:hover{
+    transform: scale(1.2);
+}
+
+#webDesignText{
+    margin-left: 400px;
+    margin-top: 15px;
+    flex: 70%;
+}
+
+#webDesignText>h1{
+    color: white;
+    line-height: 1px;
+    font-size: 3vw;
+    float: left;
+}
+
+#webDesignRow{
+    margin-top: 50px;
+}
+
+#linijePocetna{
+    color: white;
+    width: 1200px;
+    height: 3px;
+    background-color: white;
+    margin-top: 60px;
+}
+  
+.sekcija{
+    display: flex; 
+   /* flex-wrap: wrap; */
+}
+
+#sevenCr{
+    font-size: 150px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.imgWebSites{
+    width: 70px;
+    margin-left: 30px;
+}
+
+.textWeb{
+    color: white;
+    line-height: 2px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.kolonaoffer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#rowOffer{
+    padding-top: 16px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: #ff6600;
+}
+
+#ouragency{
+    text-align: center;
+    background-color: #e6e6e6;
+
+}
+
+#ouragency>h1{
+    font-size: 60px;
+    color: #0d0d0d;
+    padding-top: 60px;   
+}
+
+#ouragency>h3{
+    font-size: 30px;
+    color: #1a1a1a;
+    padding-bottom: 60px;
+}
+
+#weAre{
+    flex: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 18px;
+}
+
+#weAre>h1{
+    font-size: 35px;
+}
+
+#weAre>h3{
+    font-size: 22px;
+}
+
+#weAre>p{
+    font-size: 18px;
+}
+
+
+#whatWeDo{
+    flex: 50%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.whatWeDoRowOne{
+    flex: 40%;
+    margin-left: 15px;
+}
+
+.whatWeDoRowTwo{
+    flex: 40%;
+}
+
+.whatWeDoRowThree{
+    flex: 40%;
+    margin-left: 15px;
+}
+
+.whatWeDoRowFour{
+    flex: 40%;
+}
+
+.whatWeDoH1{
+    font-size: 80px;
+    color: #999999;
+}
+
+.sponzoriSlika{
+    width: 100px;
+}
+
+/* PORTFOLIO */
+
+#portfolio{
+   text-align: center;
+    background-color: #e6e6e6;
+}
+
+#portfolio>h1{
+    font-size: 60px;
+    color: #0d0d0d;
+    padding-top: 60px;   
+}
+
+#portfolio>h3{
+    font-size: 30px;
+    color: #1a1a1a;
+    padding-bottom: 60px;
+}
+
+
+
+.textoverImage{
+    width: 369px;
+    height: 195px;
+    position: relative;
+    float: left;
+    margin-right: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 0.5s;
+}
+
+.textoverImage:hover{
+    background-size: 110%;
+}
+
+.textoverImage:after{
+    content:attr(data-text);
+    position: absolute;
+    top: 85%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    word-wrap: break-word;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    padding:0 8px;
+    white-space: pre-wrap;
+    transition: 0.5s;
+}
+
+.textoverImage:hover:after{
+    top:0;
+    padding: 8px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.textoverImage:first-line{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#walp123{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#walp456{
+    margin-bottom: 40px;
+}
+
+/* SERVICES */
+
+#services{
+   text-align: center;
+    background-color: #e6e6e6;
+}
+
+#services>h1{
+    font-size: 60px;
+    color: #0d0d0d;
+    padding-top: 60px;   
+}
+
+#services>h3{
+    font-size: 30px;
+    color: #1a1a1a;
+    padding-bottom: 60px;
+}
+
+#servicesRow{
+    flex: 55%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* FLIP SLIKA */
+
+.flip-card-slike{
+    flex: 40%;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.flip-card {
+  	 background-color: transparent;
+  	 width: 400px;
+     height: 385px;
+     margin-left: 40px;
+     margin-bottom: 10px;
+  	 perspective: 1000px;
+}
+
+.flip-card-inner {
+  	 position: relative;
+	 width: 100%;
+  	 height: 100%;
+  	 text-align: center;
+  	 transition: transform 0.6s;
+   	 transform-style: preserve-3d;
+  	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     border-radius: 15px;
+}
+
+.flip-card:hover .flip-card-inner {
+  	 transform: rotateY(180deg);
+	
+}
+
+.flip-card-front, .flip-card-back {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 backface-visibility: hidden;	
+}
+
+.flip-card-front {
+  	color: white;
+	background-size:cover;  
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.flip-card-front>h1{
+    padding-top: 150px;
+}
+
+.flip-card-back {
+  	color: white;
+	background-size: cover;
+  	transform: rotateY(180deg);
+    border-radius: 15px;
+}
+
+.flip-card-back>h1{
+    padding-top: 150px;
+}
+
+/* FLIP SLIKA 2 */
+
+.flip-card-two {
+  	 background-color: transparent;
+  	 width: 400px;
+     height: 385px;
+     margin-left: 40px;
+     margin-bottom: 10px;
+  	 perspective: 1000px;
+}
+
+.flip-card-inner-two {
+  	 position: relative;
+	 width: 100%;
+  	 height: 100%;
+  	 text-align: center;
+  	 transition: transform 0.6s;
+   	 transform-style: preserve-3d;
+  	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     border-radius: 15px;
+}
+
+.flip-card-two:hover .flip-card-inner-two {
+  	 transform: rotateY(180deg);
+	
+}
+
+.flip-card-front-two, .flip-card-back-two {
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 backface-visibility: hidden;	
+}
+
+.flip-card-front-two {
+  	color: white;
+	background-size:cover;  
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.flip-card-front-two>h1{
+    padding-top: 150px;
+}
+
+.flip-card-back-two {
+  	color: white;
+	background-size: cover;
+  	transform: rotateY(180deg);
+    border-radius: 15px;
+    background-image: url("..//IMG/servicesImg2.jpg");
+}
+
+.flip-card-back-two>h1{
+    padding-top: 150px;
+}
+
+/* Flip slika end */
+
+.imgServices{
+    width: 50px;
+}
+
+#rowOneServ{
+    flex: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 2px;
+    padding-top: 20px;
+    height: 200px;
+}
+
+#rowTwoServ{
+    flex: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 200px;
+}
+
+#rowThreeServ{
+    flex: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 2px;
+    padding-top: 20px;
+    margin-top: 2px;
+    height: 200px;
+}
+
+#rowFourServ{
+    flex: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 2px;
+    height: 200px;
+}
+
+#rowFiveServ{
+    flex: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 2px;
+    padding-top: 20px;
+    margin-top: 2px;
+    height: 200px;
+}
+
+#rowSixServ{
+    flex: 45%;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-top: 2px;
+    height: 200px;
+}
+
+/* Slika HOVER */
+
+
+
+
+
+
+/* PRICES */
+
+#prices{
+   text-align: center;
+    background-color: #e6e6e6;
+}
+
+#prices>h1{
+    font-size: 60px;
+    color: #0d0d0d;
+    padding-top: 60px;   
+}
+
+#prices>h3{
+    font-size: 30px;
+    color: #1a1a1a;
+    padding-bottom: 60px;
+}
+
+.box{
+    width: 300px;
+    height: 600px;
+    margin-right: 10px;
+    margin-left: 50px;
+    background-color: #1a1a1a;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+#save{
+    width: 110px;
+    height: 22px;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(40deg);
+    background-color: blue;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 9px;
+}
+
+#save1{
+     width: 110px;
+    height: 22px;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(40deg);
+    background-color: tomato;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 9px;
+}
+
+#save2{
+     width: 110px;
+    height: 22px;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(40deg);
+    background-color: #ff00ff;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    margin-left: 220px;
+    margin-top: 9px;
+}
+
+#box1Price{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+    color: #1a1a1a;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#box1Price:hover{
+    background-color: blue;
+    color: white;
+}
+
+#box1Price>p{
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.box>h2{
+    color: white;
+    text-align: center;
+}
+
+.box>p{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.box>ul{
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+.serv{
+    color: white;
+    font-size: 20px;
+}
+
+.serv>img{
+    width: 20px;
+}
+
+#buttorOrder{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+#buttorOrder:hover{
+    background-color: white;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+/* BOX 2 */
+
+#box1Price1{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+    color: #1a1a1a;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#box1Price1:hover{
+    background-color: tomato;
+    color: white;
+}
+
+#box1Price1>p{
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#buttorOrder1{
+    background-color: tomato;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+#buttorOrder1:hover{
+    background-color: white;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+/* BOX 3 */
+
+#box1Price2{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+    color: #1a1a1a;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#box1Price2:hover{
+    background-color: #ff00ff;
+    color: white;
+}
+
+#box1Price2>p{
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#buttorOrder2{
+    background-color: #ff00ff;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+#buttorOrder2:hover{
+    background-color: white;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+#texIspodBox{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+/* OUR TEAM */
+
+#ourTeam{
+   text-align: center;
+    background-color: #e6e6e6;
+}
+
+#ourTeam>h1{
+    font-size: 60px;
+    color: #0d0d0d;
+    padding-top: 60px;   
+}
+
+#ourTeam>h3{
+    font-size: 30px;
+    color: #1a1a1a;
+    padding-bottom: 60px;
+}
+
+/* PERSONS */
+
+#personMargin{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.SlikaPerson{
+    margin: 4%;
+}
+
+.podaciPerson{
+    margin: 4%;
+}
+
+#personOne{
+    flex: 45%;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#personOne>p{
+    margin-top: 10px;
+}
+
+#personTwo{
+    flex: 45%;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#personTwo>p{
+    margin-top: 10px;
+}
+
+.personIcon{
+    width: 270px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.SocNet{
+    width: 40px;
+}
+
+/* CONTACT */
+
+#contact{
+   text-align: center;
+    background-color: #e6e6e6;
+}
+
+#contact>h1{
+    font-size: 60px;
+    color: #0d0d0d;
+    padding-top: 60px;   
+}
+
+#contact>h3{
+    font-size: 30px;
+    color: #1a1a1a;
+    padding-bottom: 60px;
+}
+
+/*Contact US*/
+
+#rowUs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#locationUs{
+    flex: 33.33%;
+    text-align: center;
+}
+
+#callUs{
+    flex: 33.33%;
+    text-align: center;
+}
+
+#mailUs{
+    flex: 33.33%;
+    text-align: center;
+}
+
+.imgUs{
+    width: 100px;
+}
+
+#rowUsH2{
+    text-align: center;
+    font-size: 60px;
+}
+
+#rowUsP{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* contact form */
+
+.contact-form{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.contact-form>h1{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#message{
+    margin-top: 30px;
+    margin-left: 10px;   
+}
+
+#imgMessage{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: white;
+    margin-left: 470px;
+}
+
+#prviDeoPoruke{
+    flex: 40%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#drugiDeoPoruke{
+    flex: 40%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.inputPolja{
+    width: 400px;
+    margin: 5px;
+    border: 2px solid #cc0099;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 140px;
+}
+
+#inputPolja1{
+    width: 400px;
+    height: 110px;
+    margin: 5px;
+    border: 2px solid #cc0099;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 140px;
+}
+
+#buttonSend{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #ff3333;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ff1a1a;
+    color: white;
+    margin-top: 20px;
+    margin-left: 495px;
+}
+
+#buttonSend:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Noseci div elementi svakog polja */
+
+
+#ourAgencyDiv{
+    height: 100%;
+    overflow: auto;
+}
+
+#portfolioDiv{
+    height: 100%;
+    overflow: auto;
+}
+
+#servicesDiv{
+   height: 100%;
+   overflow: auto;
+}
+
+#pricesDiv{
+   height: 100%;
+   overflow: auto;
+}
+
+#ourTeamDiv{
+    height: 100%;
+    overflow: auto;
+}
+
+#contactDiv{
+    height: 100%;
+    overflow: auto;
+}
+
+    
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.aktivno{
+    color: #ff6600;
+    border-bottom: 1px solid #ff6600;
+}
+
+/* FORMA za login i registraciju */
+
+#logInForm{
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+}
+
+#formDiv{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#buttonLogin{
+    flex: 40%;
+    justify-content: center;
+}
+
+#buttonSingUp{
+    flex: 40%;
+    justify-content: center;
+}
+
+.button1{
+    width: 120px;
+    height: 25px;
+    line-height: 15px;
+    border-radius: 10px;
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+}
+
+#formRowOne{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#poljeForma{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 255px;
+}
+
+#ulogujSe{
+    padding-top: 45px;
+    text-align: center;
+}
+
+#buttonUlogujSe{
+    border-radius: 5px;
+    float: left;
+    margin-left: 40px;
+}
+
+#buttonCancel{
+    float: left;
+    border-radius: 5px;
+    margin-left: 80px;
+    
+}
+
+#buttonCancelOne{
+    float: left;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+#registrujSe{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#buttonRegistrujSe{
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    margin-left: 35px;
+}
+
+.inputPadding1{
+    width: 170px;
+    margin-left: 44px;
+}
+.inputPadding2{
+    width: 170px;
+    margin-left: 20px;
+}
+.inputPadding3{
+    width: 170px;
+    margin-left: 40px;
+}
+.inputPadding4{
+    width: 170px;
+    margin-left: 20px;
+}

@@ -1,0 +1,451 @@
+<html>
+    <head>
+        <title>Test Sajt</title>
+        <link rel="stylesheet" href="CSS/testSajt.css"  type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="Script/testSajtScropt.js"></script>
+    </head>
+    <body onload="pokreni()">
+        
+    <div class="wrapper">
+        <div id="navDiv">
+        <div class="container-fluid" id="navMenuBar">
+            <div class="row">
+            <div class="col-sm-1" id="logoKolona">
+                <img src="IMG/logo.png" id="logo">
+                <div class="logoKolonaContent">
+                    <div class="ikonica"><a href="#"><img src="IMG/pinterestfooter.png" width="60px" height="60px"></a><br/></div>
+                     <div class="ikonica"><a href="#"><img src="IMG/twitterfooter.png" width="60px" height="60px"></a><br/></div>
+                     <div class="ikonica"><a href="#"><img src="IMG/facebookfooter.png" width="60px" height="60px"></a><br/></div>
+                     <div class="ikonica"><a href="#"><img src="IMG/instaIcon.png" width="60px" height="60px"></a></div>
+                </div>
+            </div>           
+                
+            <div class="col-sm-9" id="navKolona">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a id="linkHome" class="nav-link linkoviNav" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="linkAgency" class="nav-link linkoviNav" href="#ouragency">Agency</a>
+                  </li>
+                    <li class="nav-item">
+                    <a id="linkProject" class="nav-link linkoviNav" href="#portfolio">Projects</a>
+                  </li>
+                    <li class="nav-item">
+                    <a id="linkServices" class="nav-link linkoviNav" href="#services">Services</a>
+                  </li>
+                    <li class="nav-item">
+                    <a id="linkPrice" class="nav-link linkoviNav" href="#prices">Pricing</a>
+                  </li>
+                    <li class="nav-item">
+                    <a id="linkTeam" class="nav-link linkoviNav" href="#ourTeam">Team</a>
+                  </li>                     
+                  <li class="nav-item">
+                    <a id="linkContact" class="nav-link linkoviNav" href="#contact">Contact</a>
+                  </li>
+                </ul>
+                </div>
+                <div class="col-sm-2" id="loginKolona">
+                    <a href="#" id="logIn"><img src="IMG/user.png"></a>
+                    <div id="loginKolonaHover">
+                        <p>User information</p>
+                    </div>
+                </div>
+                <div id="logInForm" class="hidden">
+        <div id="formDiv">
+            <form>
+                <div class="row" id="formRowOne">
+                    <div id="buttonLogin">
+                        <button class="button1">LogIn Form</button>
+                    </div>
+                    <div id="buttonSingUp">
+                        <button class="button1">SingUp Form</button>
+                    </div>
+                </div>
+                <div id="poljeForma">
+                    <div id="ulogujSe" class="hidden">
+                        <p>Username: <input type="text"></p>              
+                        <br/>
+                        <p>Password: <input type="password"> </p> 
+                        <br/>
+                        <button id="buttonUlogujSe">Log In</button>
+                        <button id="buttonCancel">Cancel</button>
+                    </div>
+                    <div id="registrujSe" class="hidden">
+                        <p>Name: <input type="text" class="inputPadding1"></p>              
+                        <p>Username: <input type="text" class="inputPadding2"> </p> 
+                        <p>E-mail: <input type="email" class="inputPadding3"> </p> 
+                        <p>Password: <input type="password" class="inputPadding4"> </p> 
+                        <button id="buttonRegistrujSe">Sing Up</button>
+                        <button id="buttonCancelOne">Cancel</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+            </div>
+            </div>
+        </div>
+        
+     <div id="sredina">   
+    <div id="jumbotronDiv" class="show">
+        <div class="jumbotron" style=" margin-bottom: 0px; border-radius: 0px" id="pocetnaSekcija">
+        <div class="sekcija" id="webDesignRow">
+            <div id="webDesignText">
+                <h1>Web design and marketing agency!</h1>               
+            </div>
+             <div id="startProjectlink">
+                <a href="#" id="startProject">Start a project with us ></a>
+            </div>
+        </div>
+          <hr id="linijePocetna">
+          <p id="sevenCr">CREATIVE DESIGN</p>
+            
+            <div class="container">
+            <div class="row" id="rowOffer">
+                <div class="col kolonaoffer" id=""><img src="IMG/webdesign.png" class="imgWebSites"><p class="textWeb">Websites<br/> <br/> <br/><br/> <br/> <br/> <br/> <br/><br/><br/><br/><br/> development</p></div>
+                <div class="col kolonaoffer" id=""><img src="IMG/ecommerce.png" class="imgWebSites"><p class="textWeb">Ecommerce<br/> <br/> <br/><br/> <br/> <br/> <br/> <br/><br/><br/><br/><br/> sollutions</p></div>
+                <div class="col kolonaoffer" id=""><img src="IMG/digitalmarketing.png" class="imgWebSites"><p class="textWeb">Digital <br/> <br/> <br/><br/> <br/> <br/> <br/> <br/><br/><br/><br/><br/>marketing</p></div>
+                <div class="col kolonaoffer" id=""><img src="IMG/photographi.png" class="imgWebSites"><p class="textWeb">Photographi & <br/> <br/> <br/><br/> <br/> <br/> <br/> <br/><br/><br/><br/><br/>Illustrations</p></div>
+            </div>
+            
+            <h1 id="weAreHere">We are here for you</h1>
+                
+        </div>
+        </div>
+    </div>
+        
+        
+    <div id="ourAgenciDiv" class="hidden">
+        <div id="ouragency">
+            <h1>OUR AGENCY</h1>
+            <h3>Who we are & What we do</h3>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div id="weAre">
+                <h1>Hello! We are Seven Creative</h1><br/>
+                <h3>Web design & marketing agency based in Manchester, UK</h3><br/>
+                <p>Nam eget neque pellentesque, efficitur neque at, ornare orci. Morbi convallis a eros fermentum rhoncus. Morbi convallis a eros fermentum rhoncus lorem. Vestibulum ligula orci, volutpat id aliquet eget, consectetur eget ante. Duis pharetra for nec rhoncus felis sagittis nec amet ultricies lorem.<br/><br/>
+                Quisque lorem <strong>12 YEARS</strong> quis efficitur felis. Duis pharetra 86 <strong>CLIENTS</strong>for amet ultricies augue, nec rhoncus felis <strong>7 AWARDS</strong> sagittis nec.</p><br/>
+                <p><strong>Sponsors</strong></p>
+                <div class="row">
+                    <div class="sponzori">
+                        <img src="IMG/sponzor.jpg" class="sponzoriSlika">
+                    </div>
+                    <div class="sponzori">
+                        <img src="IMG/sponzor.jpg" class="sponzoriSlika">
+                    </div>
+                    <div class="sponzori">
+                        <img src="IMG/sponzor.jpg" class="sponzoriSlika">
+                    </div>
+                    <div class="sponzori">
+                        <img src="IMG/sponzor.jpg" class="sponzoriSlika">
+                    </div>
+                    <div class="sponzori">
+                        <img src="IMG/sponzor.jpg" class="sponzoriSlika">
+                    </div>
+                </div>
+            </div>
+            <div id="whatWeDo">
+                <div class="row">
+                    <div class="whatWeDoRowOne">
+                       <h1 class="whatWeDoH1">01.</h1>
+                        <h3>Quality</h3>
+                        <p>Nullam arcu felis – lorem ipsum dolor tristique eget malesuada sed, viverra at sapien.</p>
+                    </div>
+                    <div class="whatWeDoRowTwo">
+                       <h1 class="whatWeDoH1">02.</h1> 
+                        <h3>Integrity</h3>
+                        <p>Tristique eget malesuada sed arcu felis, viverra viverra at sapien at sapien dolor.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="whatWeDoRowThree">
+                       <h1 class="whatWeDoH1">03.</h1> 
+                        <h3>Innovations</h3>
+                        <p>Nunc ut – for dictum purus lorem vel ante dictum ipsum eget ex convallis from dolor.</p>
+                    </div>
+                    <div class="whatWeDoRowFour">
+                       <h1 class="whatWeDoH1">04.</h1> 
+                        <h3>Safety</h3>
+                        <p>Lorem ipsum dolor – glavrida tristique gravida lacus nec dolor suscipit dlavrida.</p>
+                    </div>
+                </div>
+                </div>
+            </div>      
+        </div>
+    </div>
+        
+    <div id="portfolioDiv" class="hidden">
+        <div id="portfolio">
+            <h1>PORTFOLIO</h1>
+            <h3>A showcase of our works</h3>
+        </div>
+        
+        <div class="container">
+            <div class="row" id="walp123">
+                <div class="textoverImage" style="background-image: url(IMG/walp1.jpg)" data-text="Lorem Ipsum,
+is simply dummy text of the printing and typesetting industry.">
+                
+                </div>
+                <div class="textoverImage" style="background-image: url(IMG/walp2.jpg)" data-text="Lorem Ipsum,
+is simply dummy text of the printing and typesetting industry.">
+                
+                </div>
+                <div class="textoverImage" style="background-image: url(IMG/walp3.jpg)" data-text="Lorem Ipsum,
+is simply dummy text of the printing and typesetting industry.">               
+                </div>
+            </div>
+            <div class="row" id="walp456">
+                <div class="textoverImage" style="background-image: url(IMG/walp4.jpg)" data-text="Lorem Ipsum,
+is simply dummy text of the printing and typesetting industry.">
+                
+                </div>
+                <div class="textoverImage" style="background-image: url(IMG/walp5.jpg)" data-text="Lorem Ipsum,
+is simply dummy text of the printing and typesetting industry.">
+                
+                </div>
+                <div class="textoverImage" style="background-image: url(IMG/walp6.jpg)" data-text="Lorem Ipsum,
+is simply dummy text of the printing and typesetting industry.">               
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div id="servicesDiv" class="hidden">
+        <div id="services">
+            <h1>EXPERTISE</h1>
+            <h3>How we can be useful for you</h3>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+            <div id="servicesRow">
+                    <h1>Check Out Our Services!</h1>
+                    <h5 style="font-weight: bold">Technology requires knowledge and expertise more than it requires money.</h5>
+                    <p>Velit nulla commodo – sem, at egestas nulla metus vel sapien! Lorem ipsum dolor sit amet communitas imperdiet eleifend magna, eget dictum urna to lorem quispe llentesque interdum, lacus et vulputate pellentesque, velit nulla commodo sem metus vel sapien!</p>
+                    <div class="row">
+                        <div id="rowOneServ">
+                                <img src="IMG/webdesign.png" class="imgServices">
+                                <h3>Websites development</h3>
+                                <p>Lorem usce volutpat lectus justo, ut suscipit felis congue ut. Vivamus ut ultricies ante dictum.</p>
+                        </div>
+                        <div id="rowTwoServ">
+                            <img src="IMG/digitalmarketing.png" class="imgServices">
+                            <h3>Digital marketing</h3>
+                            <p>Sed interdum, lacus et vulputate pellentesque, velit nulla commodo sem metus vel sapien!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="rowThreeServ">
+                            <img src="IMG/ecommerce.png" class="imgServices">
+                            <h3>Ecommerce</h3>
+                            <p>Gravrida amet nulla. Lorem usce volutpat lectus justo, ut suscipit felis congue ut. Vivamus ut ultricies.</p>
+                        </div>
+                        <div id="rowFourServ">
+                            <img src="IMG/photographi.png" class="imgServices">
+                            <h3>Photography</h3>
+                            <p>Lacus – et vulputate pellentesque, velit Sed interdum, lacus et vulputate pellentesque velit nulla commodo.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="rowFiveServ">
+                            <img src="IMG/brand.png" class="imgServices">
+                            <h3>Brand management</h3>
+                            <p>At egestas nulla metus vel sapien! Lorem ipsum dolor sit amet communitas erdum – lacus et vulputate!</p>
+                        </div>
+                        <div id="rowSixServ">
+                            <img src="IMG/hosting.png" class="imgServices">
+                            <h3>Hosting</h3>
+                            <p>Vulputate pellen tesque, velit nulla commodo sem, at egestast vulputate pellentesque velit nulla dolor.</p>
+                        </div>
+                    </div>       
+             </div>
+            <div class="flip-card-slike">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front" >
+                        <h1 style="color: black; font-weight: bold">Front side</h1> 
+                        <p style="color: black; font-weight: bold">Some text...</p> 
+                    </div>
+                    <div class="flip-card-back" style="background-image: url(IMG/servicesImg1.jpeg)">
+	                   <h1>Back side</h1> 
+                       <p>Some text...</p>                        
+                    </div>
+                </div>
+            </div>
+                <br/>
+            <div class="flip-card-two">
+                <div class="flip-card-inner-two">
+                    <div class="flip-card-front-two" >
+                        <h1 style="color: black; font-weight: bold">Front side</h1> 
+                        <p style="color: black; font-weight: bold">Some text...</p> 
+                    </div>
+                    <div class="flip-card-back-two">
+	                   <h1>Back side</h1> 
+                       <p>Some text...</p>                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+        
+    <div id="pricesDiv" class="hidden">
+        <div id="prices">
+            <h1>PRICES</h1>
+            <h3>Fire prices. Excellent services...</h3>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="box1 box">
+                    <div id="save"><p>SAVE</p></div>
+                    <h2>Standard</h2>
+                    <div id="box1Price"><p>$100</p></div>
+                    <p>Lorem Ipsum,is simply dummy text of the printing and typesetting industry.</p>
+                    <ul >
+                        <li class="serv">Service 1 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 2 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 3 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 4 &nbsp<img src="IMG/incorrect.png"></li>
+                        <li class="serv">Service 5 &nbsp<img src="IMG/incorrect.png"></li>
+                        <li class="serv">Service 6 &nbsp<img src="IMG/incorrect.png"></li>
+                    </ul>
+                    <button id="buttorOrder">Order now</button>
+                </div>
+                <div class="box2 box">
+                    <div id="save1"><p>TOP</p></div>
+                    <h2>Premium</h2>
+                    <div id="box1Price1"><p>$300</p></div>
+                    <p>Lorem Ipsum,is simply dummy text of the printing and typesetting industry.</p>
+                    <ul >
+                        <li class="serv">Service 1 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 2 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 3 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 4 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 5 &nbsp<img src="IMG/incorrect.png"></li>
+                        <li class="serv">Service 6 &nbsp<img src="IMG/incorrect.png"></li>
+                    </ul>
+                    <button id="buttorOrder1">Order now</button>
+                </div>
+                <div class="box3 box">
+                    <div id="save2"><p>NEW</p></div>
+                    <h2>Online shop</h2>
+                    <div id="box1Price2"><p>$600</p></div>
+                    <p>Lorem Ipsum,is simply dummy text of the printing and typesetting industry.</p>
+                    <ul >
+                        <li class="serv">Service 1 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 2 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 3 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 4 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 5 &nbsp<img src="IMG/correct.png"></li>
+                        <li class="serv">Service 6 &nbsp<img src="IMG/correct.png"></li>
+                    </ul>
+                    <button id="buttorOrder2">Order now</button>
+                </div>
+            </div>
+            <p id="texIspodBox">Lorem nulla sapient vigolos ipsum dolor sit ametipsum massa sed turpis aliquam dolor eget dictum urna to<br/> lorem ipsum dolor sit amet communitas erdum dolor glavrida.</p>
+        </div>
+    </div>
+        
+    <div id="ourTeamDiv" class="hidden">
+         <div id="ourTeam">
+            <h1>OUR TEAM</h1>
+            <h3>Highly qualified specialists</h3>
+        </div>
+        
+        <div class="container">
+            <div class="row" id="personMargin">
+                <div id="personOne">
+                    <div class="row">
+                        <div class="SlikaPerson"><img src="IMG/personIcon.png" class="personIcon"></div>
+                        <div class="podaciPerson">
+                            <h2>Full Name</h2>
+                            <h4>Education</h4>
+                            <p>E-mail: info@info.com <br/> Tel: 061/123 456</p>
+                            <a href="#"><img src="IMG/youtube.png" class="SocNet">&nbsp</a>
+                            <a href="#"><img src="IMG/facebook.png" class="SocNet">&nbsp</a>
+                            <a href="#"><img src="IMG/instagram.png" class="SocNet"></a>
+                        </div>
+                    </div>
+                    <p>Lorem nulla sapient vigolos ipsum dolor sit ametipsum massa sed turpis aliquam dolor eget dictum urna to lorem ipsum dolor sit amet communitas erdum dolor glavrida. Velit nulla commodo – sem, at egestas nulla metus vel sapien! Lorem ipsum dolor sit amet communitas imperdiet.</p>
+                </div>
+                <div id="personTwo">
+                    <div class="row">
+                        <div class="SlikaPerson"><img src="IMG/personIcon.png" class="personIcon"></div>
+                        <div class="podaciPerson">
+                            <h2>Full Name</h2>
+                            <h4>Education</h4>
+                            <p>E-mail: info@info.com <br/> Tel: 061/123 456</p>
+                            <a href="#"><img src="IMG/youtube.png" class="SocNet">&nbsp</a>
+                            <a href="#"><img src="IMG/facebook.png" class="SocNet">&nbsp</a>
+                            <a href="#"><img src="IMG/instagram.png" class="SocNet"></a>
+                        </div>
+                    </div>
+                    <p>Lorem nulla sapient vigolos ipsum dolor sit ametipsum massa sed turpis aliquam dolor eget dictum urna to lorem ipsum dolor sit amet communitas erdum dolor glavrida. Velit nulla commodo – sem, at egestas nulla metus vel sapien! Lorem ipsum dolor sit amet communitas imperdiet.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+        
+    <div id="contactDiv" class="hidden">
+        <div id="contact">
+            <h1>CONTACT</h1>
+            <h3>Start a project with us!</h3>
+        </div>
+        
+        <div class="container">
+            <div class="row" id="rowUs">
+                <div id="locationUs">
+                    <img src="IMG/locIc.png" class="imgUs">
+                    <h4>OUR LOCATION</h4>
+                    <p>Adress, Adress number</p>
+                </div>
+                <div id="callUs">
+                    <img src="IMG/phoneIc.png" class="imgUs">
+                    <h4>CALL US</h4>
+                    <p>061/123 456</p>
+                </div>
+                <div id="mailUs">
+                    <img src="IMG/mailIc.png" class="imgUs">
+                    <h4>DROP US A LINE</h4>
+                    <p>info@info.com</p>
+                </div>
+            </div>
+            <h2 id="rowUsH2">Let's start a project together!</h2>
+            <p id="rowUsP">Morbi ac scelerisque quam. Ut sollicitudin dignissim quam. Quisque tortor nisi, ullamcorper a pharetra eu,<br/> pellentesque vitae erat. Aliquam sit amet ipsum eget.</p>
+        </div>
+        
+        <div class="container contact-form" >
+            <div id="imgMessage"><img src="IMG/message.png" id="message"></div>      
+            <h1>Write US !!!</h1>
+            <div class="row" id="writeUs">
+                <div id="prviDeoPoruke">
+                    <input type="text" placeholder="Name *" required class="inputPolja"><br/>
+                    <input type="email" placeholder="E-mail *" required class="inputPolja"> <br/>
+                    <input type="text" placeholder="Phone" class="inputPolja"> 
+                </div>
+                <div id="drugiDeoPoruke">
+                    <input type="text" placeholder="Message *" required id="inputPolja1">
+                </div>
+                <input type="button" value="Send Message" onclick="Poruka neka !!!" id="buttonSend">
+            </div>
+        </div>
+    </div>                 
+       </div> 
+    <div id="footerDiv">
+        <p>Copyright © 2019</p>
+    </div>
+             
+    </div>
+    </body>  
+</html>
